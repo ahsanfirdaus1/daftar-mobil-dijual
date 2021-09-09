@@ -16,7 +16,7 @@ def main():
     print()
     tahunMobil = input("Tahun: ")
     print()
-    hargaMobil = input("Harga: ")
+    hargaMobil = int(input("Harga: "))
     print()
 
     finalMobil = carList.car(namaMobil, merekMobil, tahunMobil, hargaMobil )
@@ -24,7 +24,8 @@ def main():
 
     print("xxxxxxxxxxxxxxxxxxxxxxxxxxxx")
     print(f"Output Yang diinput oleh: \n{userName}\n")
-    print(f"{namaMobil}  ")
+    print(f"{namaMobil} dengan merek berupa {merekMobil} tahun {tahunMobil}.\nHarganya mulai dari {hargaMobil}  ")
+
 
 main()
 
